@@ -7,10 +7,55 @@
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <!-- FontAwesome for file icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>File Browser</title>
 </head>
 <body>
     <h1>My Files</h1>
     <p>This is a file browser</p>
+    <table>
+      <caption>Files on server</caption>
+      <thead>
+        <tr>
+          <th>File Icon</th>
+          <th>File Name</th>
+          <th>File Type</th>
+          <th>File Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><i class="fa-solid fa-file-code"></i></td>
+          <td><a href="hello.json">hello.json</a></td>
+          <td>JSON</td>
+          <td>29 B</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-code"></i></td>
+          <td><a href="this.html">this.html</a></td>
+          <td>HTML</td>
+          <td>223 B</td>
+        </tr>
+        <tr>
+          <td><i class="fa-regular fa-file-pdf"></i></i></td>
+          <td><a href="Screenshot_2025-11-13_190707.png">terraria.png</a></td>
+          <td>PNG (Terraria screenshot)</td>
+          <td>337 KB</td>
+        </tr>
+        <tr>
+          <td><i class="fa-regular fa-file-image"></i></td>
+          <td><a href="Screenshot_2025-11-13_190015.pdf">mygame.pdf</a></td>
+          <td>PDF (my game)</td>
+          <td>130 KB</td>
+        </tr>
+        <tr>
+          <td><i class="fa-solid fa-file-lines"></i></td>
+          <td><a href="text.txt">text.txt</a></td>
+          <td>TXT</td>
+          <td>9 B</td>
+        </tr>
+      </tbody>
+    </table>
 </body>
 </html>
